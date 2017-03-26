@@ -139,8 +139,6 @@ animation:rainbow 1s infinite;
 100% {color: #ff0080;}
 }
 
-}
-
 .mainlink:hover {
   font-style:italic;
 }
