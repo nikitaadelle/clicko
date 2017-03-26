@@ -1,3 +1,7 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
 body {
   background-color: white;
   color: black;
@@ -38,6 +42,25 @@ box {
     margin-left: 250px;
 }
 
+.vr{
+  width: 2px; /* Line width */
+  background-color: lightgray; /* Line color */
+  height: 268px; /* Override in-line if you want specific height. */
+  display:inline-block; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
+
+.one {
+    outline-style: double;
+    outline-color: lightgray;
+    outline-width: 1px;
+    width:1000px;
+    text-align:center;
+    margin-top:-20px;
+    background-color:white;
+    z-index:999;
+}
 .initial{
   z-index:-10000;
 }
